@@ -1,0 +1,119 @@
+body{
+    background-image: url(background.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img_div{
+    background-image: url(bannerbackground.png);
+    height: 50px;
+    background-repeat: repeat;
+    text-align: center;
+
+}
+.content{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid gray;
+    overflow: hidden;
+    
+
+ 
+
+}
+.rating{
+    width: 550px;
+    background-image: url(rottenbackground.png);
+}
+
+.percent{
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+.total{
+    color: white;
+    font-size: 8px;
+    font-weight: normal;
+    
+}
+.overview{
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+    
+}
+.reviewcolumn{
+    width: 32%;
+    margin-left: 2%;
+    float: left;
+    
+
+    
+}
+
+.desc{
+    position: relative;
+    top: -3px;
+}
+
+.reviews{
+    font-size: 8px;
+    border: 2px solid grey;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #E1D697;
+    
+
+    
+}
+.s_reviews{
+    position: relative;
+    top: -20px;
+    font-style: italic;
+    padding-left: 38px;
+}
+.critic{
+    padding-bottom: 15px;
+
+}
+.text{
+    position: relative;
+    top: -20px;
+}
+
+.dtlist{
+    font-weight: bold;
+    padding: 5px;
+}
+
+.number{
+   
+    padding:5px;
+    position: absolute;
+	bottom: -20px;
+	width: 540px;
+	text-align: center;
+    background-color:#A2B964;
+}
+
+#corner{
+    position: fixed;
+    right:0;
+    bottom:35px;
+}
+
+#corner2{
+    position: fixed;
+    right:0;
+    bottom:0px;
+}
